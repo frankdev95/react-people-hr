@@ -1,0 +1,28 @@
+.container {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  background-color: #e1e8eb;
+}
+
+.sidebar-item {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 1rem;
+  margin: 2.5rem 0;
+  padding: 0 3.5rem;
+}
+
+.sidebar-link,
+.sidebar-link:hover {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.sidebar-item img {
+  width: 2.5rem;
+}

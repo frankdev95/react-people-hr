@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-size: 50%;
+
+  scroll-behavior: smooth;
+  --main-grey-clr: #a6a9b6;
+  --primary-text-clr: #259fa0;
+  --primary-clr: #0e687b;
+  --primary-text-grey: #555555;
+  --border-radius-main: 5px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#overlay-example {
+  z-index: 10000;
+}
+
+.tooltip-inner {
+  font-size: 1.1rem;
+}
+
+/* 600px */
+@media only screen and (min-width: 37.5em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/* 900px */
+@media only screen and (min-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  html {
+    font-size: 62.5%;
+  }
+}

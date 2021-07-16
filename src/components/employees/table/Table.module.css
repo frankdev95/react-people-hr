@@ -1,0 +1,48 @@
+.table {
+  color: var(--primary-text-grey);
+  width: 100%;
+}
+
+.row {
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.3s ease-in;
+}
+
+.row:hover {
+  background: #eee;
+}
+
+.head {
+  border: 1px solid #eee;
+  box-shadow: 0.1rem 0 0.7rem #ddd;
+  height: 50px;
+}
+
+.head th {
+  font-size: 1.7rem;
+}
+
+.body td:not(.td-name) div,
+.td-name div:nth-child(2) {
+  font-size: 1.4rem;
+}
+
+.body td,
+.head th {
+  padding: 1rem 3rem;
+}
+
+.td-name div:first-child {
+  color: var(--primary-text-clr);
+  font-size: 1.8rem;
+}
+
+.td-name div:nth-child(2),
+.td-role div:nth-child(2) {
+  color: #aaaaaa;
+}
+
+.td-contact div:first-child {
+  color: var(--primary-text-clr);
+}

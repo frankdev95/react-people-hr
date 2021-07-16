@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 4rem;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 3.5rem;
+}
+
+.arrow {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2rem;
+}

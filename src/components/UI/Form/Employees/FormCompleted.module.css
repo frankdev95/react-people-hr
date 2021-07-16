@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+}
+
+.container img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 2rem;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons > * {
+  padding: 0.8rem 3rem;
+  width: 20rem;
+}
+
+.buttons > *:not(:last-child) {
+  margin-bottom: 1rem;
+}

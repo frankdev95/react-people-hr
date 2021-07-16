@@ -1,0 +1,38 @@
+.calendar {
+  border-radius: 10px;
+  box-shadow: 0.4rem 0.4rem 2rem #eee;
+  table-layout: fixed;
+}
+
+.calendar th {
+  padding: 1rem;
+}
+
+.calendar th,
+.calendar td {
+  width: calc(100% / 7);
+}
+
+.heading-month {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.heading-weekday {
+  font-weight: 400;
+  color: var(--main-grey-clr);
+  text-align: center;
+}
+
+.cell:not(.disabled):hover {
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.cell {
+  height: 50px;
+  text-align: center;
+  transition: all 0.4s;
+}

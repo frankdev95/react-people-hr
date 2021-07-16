@@ -1,0 +1,109 @@
+.container {
+  padding: 1rem 2rem;
+
+  --main-grey-clr: #a6a9b6;
+  --primary-clr: #0e687b;
+  --primary-text-clr: #259fa0;
+}
+
+.container h1 {
+  color: var(--primary-text-clr);
+  font-size: 3rem;
+}
+
+.container p {
+  color: #555555;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.number > span {
+  position: absolute;
+  bottom: -2.3rem;
+  width: max-content;
+  font-size: 1.3rem;
+}
+
+.number div span {
+  font-size: 1.5rem;
+}
+
+.number div {
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  margin-top: -25px;
+}
+
+.gender-field {
+  background-color: #f1f1f1;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  color: #555555;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gender-field span {
+  margin: 0;
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #aaaaaa;
+}
+
+.radios {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.radios label {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: #aaaaaa;
+  font-size: 1.3rem;
+  margin-right: 0.5rem;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-btn {
+  background-color: var(--primary-clr);
+  color: white;
+  margin-left: 1rem;
+}
+
+.next-btn,
+.prev-btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 0.8rem 3rem;
+}

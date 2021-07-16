@@ -1,0 +1,19 @@
+.planner {
+  padding: 3rem;
+  flex: 1;
+}
+
+.select-container select {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0 1rem;
+  width: 20rem;
+  height: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.select-container select,
+.select-container select:focus,
+.select-container select:active {
+  outline: none;
+}
